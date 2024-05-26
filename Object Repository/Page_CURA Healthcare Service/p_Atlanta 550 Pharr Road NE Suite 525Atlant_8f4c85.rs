@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_CURA Healthcare Service</name>
+   <name>p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85</name>
    <tag></tag>
-   <elementGuidId>a4a78542-425a-457d-840e-1fc1e2c1ea31</elementGuidId>
+   <elementGuidId>8f6a4b40-fa08-430d-940b-dc7741948729</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='top']/div/h1</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/following::p[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h1</value>
+         <value>p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>h1</value>
+         <value>internal:text=&quot;Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>5abd500e-ebb0-416e-a9dd-2015c3936b85</webElementGuid>
+      <value>p</value>
+      <webElementGuid>067bf793-3222-4074-9cd5-1fbd32129516</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>CURA Healthcare Service</value>
-      <webElementGuid>2c663094-aa7b-41d2-b8ce-bb4073f92ff6</webElementGuid>
+      <value>Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305</value>
+      <webElementGuid>6d9fa228-a7ae-4f2c-8364-b7b511d14da6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;top&quot;)/div[@class=&quot;text-vertical-center&quot;]/h1[1]</value>
-      <webElementGuid>2b47b455-45ff-47a8-84cb-4468b42a119d</webElementGuid>
+      <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/p[1]</value>
+      <webElementGuid>39e190f3-b7ee-4b94-8b3a-8a82a7009b6a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//header[@id='top']/div/h1</value>
-      <webElementGuid>85c60bb6-2ecf-4761-b5ff-d23209095e8e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/following::p[1]</value>
+      <webElementGuid>d845dbc8-a75e-4316-8d92-4414fbba3e16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::h1[1]</value>
-      <webElementGuid>b9832f75-648b-41ab-b6e2-ab37edd390fb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::p[1]</value>
+      <webElementGuid>950f6095-2045-4c33-8d89-173ed7ed3cd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::h1[1]</value>
-      <webElementGuid>9c487136-1adc-45f7-af2a-3de9d3f2c524</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::p[1]</value>
+      <webElementGuid>c6eebfcb-59e9-45bd-a608-68656b722dc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/preceding::h1[1]</value>
-      <webElementGuid>4dae2da5-cb86-4f34-97c3-b70ed67b937f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='info@katalon.com'])[1]/preceding::p[1]</value>
+      <webElementGuid>cc10b52c-af15-4703-90fd-3f25f7474f2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/preceding::h1[1]</value>
-      <webElementGuid>db5030f9-1b2c-410c-b635-70578e1b2412</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Atlanta 550 Pharr Road NE Suite 525']/parent::*</value>
+      <webElementGuid>c9476e2f-a039-4e7c-b7dc-6ae9eac1e2ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>22d6176b-39a8-4639-9ff0-056625f62005</webElementGuid>
+      <value>//p</value>
+      <webElementGuid>ccab8b13-5cdf-465e-aac5-905093460003</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'CURA Healthcare Service' or . = 'CURA Healthcare Service')]</value>
-      <webElementGuid>317cca81-79f8-484b-9e26-3631fc31d6b9</webElementGuid>
+      <value>//p[(text() = 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' or . = 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305')]</value>
+      <webElementGuid>8f391e8f-a0a8-4d6d-b2ef-e0a1bd233027</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_CURA Healthcare Service</name>
+   <name>a_infokatalon.com</name>
    <tag></tag>
-   <elementGuidId>a4a78542-425a-457d-840e-1fc1e2c1ea31</elementGuidId>
+   <elementGuidId>56c84f23-7c49-4c7d-b578-8638f7479d19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='top']/div/h1</value>
+         <value>//a[contains(text(),'info@katalon.com')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h1</value>
+         <value>ul.list-unstyled > li:nth-of-type(2) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>h1</value>
+         <value>internal:role=link[name=&quot;info@katalon.com&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>5abd500e-ebb0-416e-a9dd-2015c3936b85</webElementGuid>
+      <value>a</value>
+      <webElementGuid>0d523297-abaa-49e8-bd00-a09f26c1a6ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>mailto:info@katalon.com</value>
+      <webElementGuid>c35b22ef-a0e4-4e22-bb52-0a9b7b987b5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>CURA Healthcare Service</value>
-      <webElementGuid>2c663094-aa7b-41d2-b8ce-bb4073f92ff6</webElementGuid>
+      <value>info@katalon.com</value>
+      <webElementGuid>756c39e1-9b25-4cb0-872f-b4db745a0c10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;top&quot;)/div[@class=&quot;text-vertical-center&quot;]/h1[1]</value>
-      <webElementGuid>2b47b455-45ff-47a8-84cb-4468b42a119d</webElementGuid>
+      <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[2]/a[1]</value>
+      <webElementGuid>426d8ed8-8306-4bfc-b520-a59bae1098ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:link</name>
       <type>Main</type>
-      <value>//header[@id='top']/div/h1</value>
-      <webElementGuid>85c60bb6-2ecf-4761-b5ff-d23209095e8e</webElementGuid>
+      <value>//a[contains(text(),'info@katalon.com')]</value>
+      <webElementGuid>9eab0b3d-5b4d-4f06-948c-ca950d7e2c6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::h1[1]</value>
-      <webElementGuid>b9832f75-648b-41ab-b6e2-ab37edd390fb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/following::a[1]</value>
+      <webElementGuid>8d9e157a-8e10-45ef-8c78-993461fb8126</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::h1[1]</value>
-      <webElementGuid>9c487136-1adc-45f7-af2a-3de9d3f2c524</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/following::a[1]</value>
+      <webElementGuid>d0c16586-741d-4640-8a95-26d8bf4cf525</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/preceding::h1[1]</value>
-      <webElementGuid>4dae2da5-cb86-4f34-97c3-b70ed67b937f</webElementGuid>
+      <value>//*/text()[normalize-space(.)='info@katalon.com']/parent::*</value>
+      <webElementGuid>b8a4dc89-eb4f-4a50-bee6-37956cc0d244</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/preceding::h1[1]</value>
-      <webElementGuid>db5030f9-1b2c-410c-b635-70578e1b2412</webElementGuid>
+      <value>//a[contains(@href, 'mailto:info@katalon.com')]</value>
+      <webElementGuid>e59d9cc3-77d7-4e30-aeaa-3ae4beb85c3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>22d6176b-39a8-4639-9ff0-056625f62005</webElementGuid>
+      <value>//div/ul/li[2]/a</value>
+      <webElementGuid>21010534-f3ec-4212-8afe-db79b5235dfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'CURA Healthcare Service' or . = 'CURA Healthcare Service')]</value>
-      <webElementGuid>317cca81-79f8-484b-9e26-3631fc31d6b9</webElementGuid>
+      <value>//a[@href = 'mailto:info@katalon.com' and (text() = 'info@katalon.com' or . = 'info@katalon.com')]</value>
+      <webElementGuid>bfb1f2bf-1a6b-4ab7-973e-00b76b3af053</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>a_Home</name>
    <tag></tag>
-   <elementGuidId>2aa60176-4e95-401a-be16-1074c8282903</elementGuidId>
+   <elementGuidId>bf885c57-40c1-4e10-b648-2bf038076e40</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-login']</value>
+         <value>(//a[@onclick=&quot;$('#menu-close').click();&quot;])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btn-login</value>
+         <value>li:nth-of-type(2) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>internal:role=link[name=&quot;Home&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,111 +28,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>5a8f365e-7f74-4570-b076-3827ec2d9d6b</webElementGuid>
+      <value>a</value>
+      <webElementGuid>98cdc73c-d846-4126-92eb-40eb04edbf25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>btn-login</value>
-      <webElementGuid>ca4b6551-6864-4190-aee3-ff491c5eb30a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>b33dfd7d-392d-4a4d-816e-d756abce4edc</webElementGuid>
+      <value>./</value>
+      <webElementGuid>59651a90-7d4b-4dbe-bdc2-2d5ea25f1988</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>btn btn-default</value>
-      <webElementGuid>f87ab68a-d068-4720-9856-2c355dad623b</webElementGuid>
+      <value>$('#menu-close').click();</value>
+      <webElementGuid>ae248c73-bb21-4735-b3cc-fab18a68d365</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>dcf6632e-5abb-48cc-94ba-8fb36f72b804</webElementGuid>
+      <value>Home</value>
+      <webElementGuid>5e6979b5-f5a2-4afa-9fd4-5c3ac615d840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-login&quot;)</value>
-      <webElementGuid>b06cac61-8fef-4d30-8ff7-147b6eee3550</webElementGuid>
+      <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-nav&quot;]/li[2]/a[1]</value>
+      <webElementGuid>819b1666-8ae1-4acb-86ec-2c43dd6d3387</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btn-login']</value>
-      <webElementGuid>623d791f-40a1-4fc4-831b-3b452f789535</webElementGuid>
+      <value>(//a[@onclick=&quot;$('#menu-close').click();&quot;])[2]</value>
+      <webElementGuid>cd62f29b-d758-47af-8b37-fde0f73bac53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[4]/div/button</value>
-      <webElementGuid>9f1b6e98-fdb3-4422-9d23-a7778b6e5732</webElementGuid>
+      <value>//nav[@id='sidebar-wrapper']/ul/li[2]/a</value>
+      <webElementGuid>74d8e276-5545-4fae-85d5-b9a950f6ec9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Home')]</value>
+      <webElementGuid>d64d8291-7cd6-40f6-8da8-00b3f5a87364</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>efe7b8d1-c6ac-4c95-8cc8-f44e4f213205</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare'])[1]/following::a[1]</value>
+      <webElementGuid>d8039dbd-12ae-4698-9f73-e2ebc1041aa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>2042bfd6-7454-46ec-b96c-9e23831f32db</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::a[1]</value>
+      <webElementGuid>bb07c2d8-b2fb-4334-926e-8567ce5c208f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::button[1]</value>
-      <webElementGuid>0c0fadcc-e5da-47a8-8b49-93ec7381fd21</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/preceding::a[2]</value>
+      <webElementGuid>72588617-e10c-4679-9376-a3da2afa3e05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::button[1]</value>
-      <webElementGuid>0abf02ff-8255-4a2a-86d1-08c7c8092142</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
+      <webElementGuid>c1b9e121-cd22-4e10-91d8-55e2ba51fbb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, './')])[2]</value>
+      <webElementGuid>a03423b7-d8e1-4996-9912-7934a3a3439c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>b09d809f-1a85-4cc3-972e-ab0a64a27bce</webElementGuid>
+      <value>//li[2]/a</value>
+      <webElementGuid>c76366e2-9e76-49b8-9c46-ec2b16bda96c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btn-login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>f81f6926-5c0c-4f64-9844-204f86097484</webElementGuid>
+      <value>//a[@href = './' and (text() = 'Home' or . = 'Home')]</value>
+      <webElementGuid>f5ac750b-332b-4e60-b964-92e83107aa0e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
