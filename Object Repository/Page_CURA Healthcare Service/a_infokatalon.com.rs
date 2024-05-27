@@ -6,12 +6,12 @@
    <elementGuidId>56c84f23-7c49-4c7d-b578-8638f7479d19</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'info@katalon.com')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>ul.list-unstyled > li:nth-of-type(2) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'info@katalon.com')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0d523297-abaa-49e8-bd00-a09f26c1a6ae</webElementGuid>
+      <webElementGuid>2619119f-a5a8-45a2-8bec-7992910846bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>mailto:info@katalon.com</value>
-      <webElementGuid>c35b22ef-a0e4-4e22-bb52-0a9b7b987b5e</webElementGuid>
+      <webElementGuid>48557359-69b3-4015-bba0-98eacfa0b5d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>info@katalon.com</value>
-      <webElementGuid>756c39e1-9b25-4cb0-872f-b4db745a0c10</webElementGuid>
+      <webElementGuid>910c9ec7-058d-4ef8-9240-2bb1ced14acc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[2]/a[1]</value>
-      <webElementGuid>426d8ed8-8306-4bfc-b520-a59bae1098ef</webElementGuid>
+      <webElementGuid>142d39a9-5cb7-4061-8479-4259aefd4621</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'info@katalon.com')]</value>
-      <webElementGuid>9eab0b3d-5b4d-4f06-948c-ca950d7e2c6e</webElementGuid>
+      <webElementGuid>050acb39-3c81-414e-8659-409e5ab4643d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/following::a[1]</value>
-      <webElementGuid>8d9e157a-8e10-45ef-8c78-993461fb8126</webElementGuid>
+      <webElementGuid>01952c8b-9e66-4d75-9669-b7c76fd8a1f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/following::a[1]</value>
-      <webElementGuid>d0c16586-741d-4640-8a95-26d8bf4cf525</webElementGuid>
+      <webElementGuid>86b363cd-6e41-40de-9bef-27cb224b5be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='info@katalon.com']/parent::*</value>
-      <webElementGuid>b8a4dc89-eb4f-4a50-bee6-37956cc0d244</webElementGuid>
+      <webElementGuid>3773003e-2d21-4d4d-82db-ae77736e44cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'mailto:info@katalon.com')]</value>
-      <webElementGuid>e59d9cc3-77d7-4e30-aeaa-3ae4beb85c3c</webElementGuid>
+      <webElementGuid>57066976-38c5-402b-9698-0cfddaac9e03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[2]/a</value>
-      <webElementGuid>21010534-f3ec-4212-8afe-db79b5235dfe</webElementGuid>
+      <webElementGuid>cbd6d681-5146-4fc9-9d7d-546dca25dd47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'mailto:info@katalon.com' and (text() = 'info@katalon.com' or . = 'info@katalon.com')]</value>
-      <webElementGuid>bfb1f2bf-1a6b-4ab7-973e-00b76b3af053</webElementGuid>
+      <webElementGuid>c4826e04-cf6b-40cf-8c47-dc3eed1df507</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
