@@ -6,12 +6,12 @@
    <elementGuidId>4c7278ea-6bf3-4c43-ac5e-65853f4f6634</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='login']/div/div/div/h2</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='login']/div/div/div/h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>2337ea50-e886-40b9-85a1-fdd34a0c6cfe</webElementGuid>
+      <webElementGuid>d9fd8129-51ec-4763-a6c0-73cb153664c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>f9a43fcc-c90d-4acb-9ca1-c2dc1ecc9f27</webElementGuid>
+      <webElementGuid>27fd3e91-67df-4b72-bfc3-1f70f0d7ee8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 text-center&quot;]/h2[1]</value>
-      <webElementGuid>49fe00c9-2665-4cf9-8b13-8baa361d4734</webElementGuid>
+      <webElementGuid>753dd4c6-8385-4880-a71c-12a527051df6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='login']/div/div/div/h2</value>
-      <webElementGuid>503e04fa-c42b-4f42-881a-da3530567d9b</webElementGuid>
+      <webElementGuid>9b081336-d2d6-4a8d-80df-7882b89268bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::h2[1]</value>
-      <webElementGuid>5f0c6b74-aecf-4ff0-b396-db809b5c79aa</webElementGuid>
+      <webElementGuid>91b5b470-2761-4fd2-90a0-6cef40882943</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::h2[1]</value>
-      <webElementGuid>51c0ee93-1878-4fc4-a0db-aee6c53a1ff5</webElementGuid>
+      <webElementGuid>8c4dc825-5925-497a-8c66-2f48406379e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo account'])[1]/preceding::h2[1]</value>
-      <webElementGuid>92eeb676-03c6-4348-9537-bc4e4e153e08</webElementGuid>
+      <webElementGuid>3ea09b44-1e0d-4855-980f-996726c413d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::h2[1]</value>
-      <webElementGuid>2f999ffe-9fd1-4bc2-b01f-56f0ab72b0e1</webElementGuid>
+      <webElementGuid>c01585a9-924a-4f25-8229-e8029d6c7f0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>773cc9dc-2297-4417-b9e3-e72a820ca8b0</webElementGuid>
+      <webElementGuid>f653d8d7-16b3-4740-a145-5c229ebddf95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>f4743960-ff92-479f-8c5b-199568cfb85c</webElementGuid>
+      <webElementGuid>7fc4581d-6a2e-4a2b-9de7-0ddb6599a8dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
